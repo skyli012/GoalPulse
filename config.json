@@ -1,0 +1,26 @@
+{
+    "app": {
+        "name": "GoalPulse",
+        "version": "1.0.0",
+        "auto_start": true,
+        "check_on_shutdown": true
+    },
+    "ui": {
+        "theme": "default",
+        "language": "zh_CN",
+        "window_size": {
+            "width": 600,
+            "height": 500
+        }
+    },
+    "tasks": {
+        "default_priority": 0,
+        "show_completed": false,
+        "auto_archive_days": 7
+    },
+    "notifications": {
+        "startup_reminder": true,
+        "shutdown_check": true,
+        "sound_enabled": true
+    }
+} 
